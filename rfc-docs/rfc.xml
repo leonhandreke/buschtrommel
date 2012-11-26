@@ -86,6 +86,13 @@
 				<t>Clients MAY use Yo messages they receive to update their internal state concerning the availability of other peers.</t>
 			</t>
 		</section>
+		<section title="Bye Messages">
+			<t>
+				<t>Bye messages SHOULD be sent when a peer wants to leave the network to inform other peers that it is no longer present.</t>
+				<t>A Bye message is sent using UDP and has its Type field set to "Bye". No other fields are needed.</t>
+				<t>Clients MAY use Bye messages they receive to update their internal state concerning the availability of other peers.</t>
+			</t>
+		</section>
 	</section>
 
 	<section title="File Discovery">
