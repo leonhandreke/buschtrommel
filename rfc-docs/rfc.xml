@@ -86,6 +86,12 @@
 				<t>Clients MAY use Yo messages they receive to update their internal state concerning the availability of other peers.</t>
 			</t>
 		</section>
+		<section title="Bye Messages">
+			<t>
+				<t>A peer SHOULD send a Bye message to inform other peers that it should be considered offline. Usually, a Bye message is sent beforeexiting the client program.</t>
+				<t>A Bye message is sent using UDP and contains no other fields.</t>
+			</t>
+		</section>
 	</section>
 
 	<section title="File Discovery">
